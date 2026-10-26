@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Feedback</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Sundanese:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <!-- add our style after bootstrap-->
+    <link href="/stylesheets/feedback-styles.css" type="text/css" rel="stylesheet"> <!-- FIX: Added root slash for static routing asset paths -->
+</head>
+<body class="m-4">
+
+    {{{ body }}}
+
+    <hr>
+    <p>A project for web client and server programming</p>
+
+    {{!-- FIX: Corrected Handlebars comment syntax from '{{!!--' to '{{!--' and cleanly wrapped the comment block inside the valid HTML tree --}}
+    {{!-- 
+    'body' has 3 meanings here:
+    1. HTTP Post request body
+    2. The body of the HTML page
+    3. The body placeholder token of the Handlebars layout template
+    
+    HTML body tag: Contains the structural content of the HTML document displayed in the web browser.
+    Handlebars {{{ body }}}: Renders unescaped inner template layouts compiled by the server engine.
+    --}}
+</body>
+</html>

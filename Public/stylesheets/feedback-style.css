@@ -1,0 +1,13 @@
+body {
+    background-color: cadetblue;
+}
+body {
+    background-color: cadetblue;
+    font-family:'Roboto', sans-serif;
+}
+.header {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+p {
+    font-size: 30px;
+}

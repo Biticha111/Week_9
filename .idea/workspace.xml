@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9f66c9d6-5d10-4da8-a065-6c1ce0e15e2f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/feedback-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feedback.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/feedback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/error.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/STUDEN-FEEDBACK-WEB-SERVER.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_feedback.html" beforeDir="false" afterPath="$PROJECT_DIR$/student_feedback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/views/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/student_feedback_form.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/student_feedback_form.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/thank_you.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/thank_you.hbs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="99e47473-a184-4423-8bf3-d5e9775bbf24" value="" />
+    </colors>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Biticha111"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Biticha111/Week_9.git",
+    "accountId": "800827fd-7cbc-4925-a006-9ebf4b2fb1bb"
+  }
+}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0000000000000002" />
+      <entry key="S60" value="1.0000000558520081" />
+      <entry key="M2" value="1.0009066214128353" />
+      <entry key="M5" value="1.3575362772712771" />
+      <entry key="M10" value="4.716473047136663" />
+      <entry key="M15" value="10.910422424114032" />
+      <entry key="M30" value="36.54940638340321" />
+      <entry key="H1" value="87.2206526533788" />
+      <entry key="H2" value="167.84786043552367" />
+      <entry key="H4" value="288.035111921103" />
+      <entry key="D1" value="562.290106669368" />
+      <entry key="W1" value="645.5372079403156" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.3274360205167666E-151" />
+      <entry key="S5" value="4.4586711214305075E-61" />
+      <entry key="S10" value="6.677328149365213E-31" />
+      <entry key="S30" value="8.74045899863504E-11" />
+      <entry key="S60" value="9.34904219620119E-6" />
+      <entry key="M2" value="0.0030576203486392096" />
+      <entry key="M5" value="0.09866692411843886" />
+      <entry key="M10" value="0.31623274091222653" />
+      <entry key="M15" value="0.4821203948700056" />
+      <entry key="M30" value="0.9820902377415988" />
+      <entry key="H1" value="2.4137533277027208" />
+      <entry key="H2" value="5.250263301707976" />
+      <entry key="H4" value="9.126720684672037" />
+      <entry key="D1" value="16.57128723282869" />
+      <entry key="W1" value="18.625474302163074" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.0284630714702324E-21" />
+      <entry key="MS500" value="6.345089326020983E-5" />
+      <entry key="S2" value="0.08925024873031649" />
+      <entry key="S5" value="0.3804028605191338" />
+      <entry key="S10" value="0.6167680767672187" />
+      <entry key="S30" value="0.8512176674547712" />
+      <entry key="S60" value="0.9226234085724333" />
+      <entry key="M2" value="0.9643917470123597" />
+      <entry key="M5" value="1.4381816554079727" />
+      <entry key="M10" value="5.017770928958967" />
+      <entry key="M15" value="11.375507447116341" />
+      <entry key="M30" value="37.50902642640902" />
+      <entry key="H1" value="89.61005101505287" />
+      <entry key="H2" value="173.07589235306452" />
+      <entry key="H4" value="297.143707034433" />
+      <entry key="D1" value="578.8558608029266" />
+      <entry key="W1" value="664.1617856587393" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="3M7lXzyS8Hr1NdliMUOaXC8VSRE" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.import",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.9437.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f66c9d6-5d10-4da8-a065-6c1ce0e15e2f" name="Changes" comment="" />
+      <created>1794709531493</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1794709531493</updated>
+      <workItem from="1794709532310" duration="27275000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

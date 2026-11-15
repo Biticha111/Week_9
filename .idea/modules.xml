@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/STUDEN-FEEDBACK-WEB-SERVER.iml" filepath="$PROJECT_DIR$/.idea/STUDEN-FEEDBACK-WEB-SERVER.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/student_feedback_form_with_express_server.iml" filepath="$PROJECT_DIR$/.idea/student_feedback_form_with_express_server.iml" />
     </modules>
   </component>
 </project>

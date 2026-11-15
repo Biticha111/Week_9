@@ -1,5 +1,5 @@
 {
-  "name": "STUDEN-FEEDBACK-WEB-SERVER",  
+  "name": "student_feedback_form_with_express_server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,11 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "private": true,
-  "devDependencies": {
-    "nodemon": "^3.1.14"
-  },
   "dependencies": {
     "express": "^5.3.0",
-    "hbs": "^4.4.0"
+    "hbs": "^4.4.0",
+    "sequelize": "^6.37.8"
+  },
+  "devDependencies": {
+    "sqlite3": "^6.0.1"
   }
 }

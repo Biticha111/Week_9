@@ -31,7 +31,7 @@
 
 
     <div class="col-md-7">
-     <form>
+     <form id="feedback-form" method="POST" action="/student-feedback">
         <lebel class="form-lebel" for="Name">Name</lebel> 
         <input class="form-control" id="name" type="name" Name="name">
 
@@ -51,12 +51,12 @@
         <p class="m-2"> Are you current student?</p>
 
         <div class="form-check">
-        <input class="form-check-input" type="radio" value="yes" name="current student">
+        <input class="form-check-input" type="radio" value="yes" name="isCurrentStudent">
         <lebel class="form-check-lebel" for="yes">Yes</lebel>
         </div>
 
         <div class="form-check">
-        <input class="form-check-input" type="radio" name="current student">
+        <input class="form-check-input" type="radio" value="no" name="isCurrentStudent">
         <lebel class="form-check-lebel" for="no">No</lebel>
         </div>
         <br>

@@ -1,0 +1,34 @@
+<h1>Admin Page, All Feedback</h1>
+
+<link rel="stylesheet" href="feedback-style.css">
+{{# if feedback}}
+ <table>
+     <thead>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Comments</th>
+        <th>Current Students</th>
+        <th>Department(s)</th>
+        <th>Created At</th>
+     </thead>
+
+     <tbody>
+    {{#each feedback }}
+        <tr>
+            <td>{{ this.id }}</td>
+            <td>{{ this.name }}</td>
+            <td>{{ this.email }}</td>
+            <td>{{ this.comments }}</td>
+            <td>{{ this.isCurrentStudent }}</td>
+            <td>{{ this.departments }}</td>
+            <td>{{ this.createdAt }}</td>
+        </tr>
+    {{/each}}
+     </tbody>
+
+
+ </table>
+{{ else }}
+    <P>No feedback in database </P>
+{{/if}}

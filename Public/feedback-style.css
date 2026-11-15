@@ -1,0 +1,18 @@
+body {
+    background: #bae4c2;
+    font-family: 'Roboto Slab', serif;
+}
+header {
+    font-family: 'Pacifico', cursive;
+}
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+thead {
+    font-weight: bold;
+}
+
+th, td {
+    padding: 10px;
+}

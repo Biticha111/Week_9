@@ -1,34 +1,43 @@
+<!-- Page heading -->
 <h1>Admin Page, All Feedback</h1>
 
+<!-- Link external CSS file -->
 <link rel="stylesheet" href="feedback-style.css">
-{{# if feedback}}
- <table>
-     <thead>
-        <th>ID</th>
-        <th>Name</th>
-        <th>Email</th>
-        <th>Comments</th>
-        <th>Current Students</th>
-        <th>Department(s)</th>
-        <th>Created At</th>
-     </thead>
 
-     <tbody>
-    {{#each feedback }}
+<!-- Check if feedback records exist -->
+{{#if feedback}}
+    <table>
+        <!-- Table column headers -->
+        <thead>
         <tr>
-            <td>{{ this.id }}</td>
-            <td>{{ this.name }}</td>
-            <td>{{ this.email }}</td>
-            <td>{{ this.comments }}</td>
-            <td>{{ this.isCurrentStudent }}</td>
-            <td>{{ this.departments }}</td>
-            <td>{{ this.createdAt }}</td>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Comments</th>
+            <th>Current Students</th>
+            <th>Department(s)</th>
+            <th>Created At</th>
         </tr>
-    {{/each}}
-     </tbody>
+        </thead>
 
+        <!-- Table body -->
+        <tbody>
+        <!-- Loop through each feedback entry -->
+        {{#each feedback}}
+            <tr>
+                <td>{{ this.id }}</td>
+                <td>{{ this.name }}</td>
+                <td>{{ this.email }}</td>
+                <td>{{ this.comments }}</td>
+                <td>{{ this.isCurrentStudent }}</td>
+                <td>{{ this.departments }}</td>
+                <td>{{ this.createdAt }}</td>
+            </tr>
+        {{/each}}
+        </tbody>
+    </table>
 
- </table>
-{{ else }}
-    <P>No feedback in database </P>
+    <!-- Fallback if database is empty -->
+{{else}}
+    <p>No feedback in database</p>
 {{/if}}
